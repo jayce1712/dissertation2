@@ -1,0 +1,23 @@
+<header class="navbar">
+  <ul class="list">
+    <li><a href="hkpSoft.php"> <img src="home.svg" alt="view messages"></a></li>
+    <li onclick="displayModal()"><img src="profile.svg" alt="View Profile"></li>
+    <li class="brand">travelLOGGER</li>
+    <li><form action="#" class="search">
+      <input type="text" class="search__input" placeholder="search">
+      <button class="search__button">
+        <img src="searchicon.svg">
+      </button> <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </form></li>
+    <li id="usermessage" onclick="displayMessages()"><img src="messages.svg" alt="view messages"></li>
+    <li id="usernotif">0</li>
+    <li id="hiuser"><?php  echo date("l F d, Y"); ?></li>
+  </ul>
+</header>
+<div class="modal">
+  <p class="brand">Log In</p>
+  <p>Username <input type="text"></p>
+  <p>Password <input type="password"></p>
+  <p class="brand"><a href="loginform.php">Sign up?</a></p>
+</div>
+

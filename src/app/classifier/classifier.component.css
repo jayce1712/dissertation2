@@ -1,0 +1,88 @@
+
+.button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  object-fit: fill;
+  text-align: center;
+  position: center;
+}
+
+.btn1{
+  padding: 12px 30px;
+  background: #f20c4a;
+  text-decoration: none;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.btn1:hover {
+  transform: scaleX(1.2);
+  background: -webkit-linear-gradient(to top, red, orangered); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, red, orangered); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn2:hover { transform: scale(1.15);
+  background: -webkit-linear-gradient(to top, antiquewhite, whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, antiquewhite, whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn3:hover { transform: scale(1.15);
+  background: -webkit-linear-gradient(to top, green, mediumspringgreen); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, green, mediumspringgreen); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn4:hover {transform: scale(1.15);
+  background: -webkit-linear-gradient(to top, deepskyblue, dodgerblue); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, deepskyblue, dodgerblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn5:hover {transform: scale(1.15);
+  background: -webkit-linear-gradient(to top, darkslategrey, dimgrey); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,darkslategrey, dimgrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn6:hover{transform: scaleX(1.2);
+  background: -webkit-linear-gradient(to top, yellowgreen, yellow); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, yellowgreen, yellow); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn2{
+  padding: 12px 25px;
+  background: #f4f6f8;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+.btn3{
+  padding: 12px 25px;
+  background: darkseagreen;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.btn4{
+  padding: 12px 25px;
+  background: deepskyblue;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.btn5{
+  padding: 12px 25px;
+  background: darkslategrey;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.btn6{
+  padding: 12px 25px;
+  background: yellow;
+  text-decoration: none;
+  color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+}
+

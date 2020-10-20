@@ -1,0 +1,24 @@
+<div class="card" *ngFor="let element of data">
+  <div class="card-image"><img src="{{element.flag}}"/></div>
+  <div class="card-text">
+    <span class="date">{{time | date:'dd-MM-yy hh:mm:ss':+"" +element.timezones}}</span>
+    <h2>{{element.name}}</h2>
+    <p>Population: {{element.population}}</p>
+    <p>{{element.languages.name |json}}</p>
+    <p>{{element.currencies.name | json}}</p>
+  </div>
+  <div class="card-stats">
+    <div class="stat">
+      <div class="value">{{element.timezones}}<sup>m</sup></div>
+      <div class="type">Time Zone</div>
+    </div>
+    <div class="stat border">
+      <div class="value">{{element.region}}</div>
+      <div class="type">Region</div>
+    </div>
+    <div class="stat">
+      <div class="value">{{element.capital}}</div>
+      <div class="type">Capital</div>
+    </div>
+  </div>
+</div>

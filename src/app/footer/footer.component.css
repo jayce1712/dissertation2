@@ -1,0 +1,102 @@
+.footer{
+  display:flex;
+  background: black;
+  width:100vw;
+  height:50vh;
+  flex-direction: row;
+}
+
+.footer__weather-cards{
+  width:33%;
+  background-image: url(firetent.jpg);
+  background-position: center;
+  text-align: center;
+  font-family: 'montserrat', sans-serif;
+
+}
+.footer__location{
+  width:33%;
+}
+.links{
+  width:66%;
+  background: linear-gradient(#00B4DB,#0083B0);
+  align-items: center;
+  justify-items: center;
+}
+.city{
+  color: #fff;
+  font-size:32px;
+  font-weight: 500;
+  margin-bottom:5px;
+}
+.temp{
+  color: #fff;
+  font-size:102px;
+  font-weight: 900;
+  margin:30px 0px;
+  text-shadow: 2px 10px rgba(0,0,0,0.6);
+}
+.location .city {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+.city2{
+  color: #fff;
+  font-size:32px;
+  font-weight: 500;
+  margin-bottom:5px;
+  font-family: roboto;
+  font-weight: 400;
+  align-self: center;
+  justify-self: center;
+}
+#hiuser{
+  font-family: roboto;
+  font-weight: 400;
+  color: white;
+}
+#usernotif{
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  color: deepskyblue;
+  z-index: 201;
+  transform: translateX(-65px) translateY(-40px);
+}
